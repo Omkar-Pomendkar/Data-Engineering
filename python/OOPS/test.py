@@ -7,6 +7,7 @@ class Person:
         self.year_of_birth = year_of_birth
 
 
+
 omkar_var = Person("omkar","pomendkar","omkarpomendkar100@gmail.com",2000)
 print(omkar_var.name)
 print(omkar_var.surname)
