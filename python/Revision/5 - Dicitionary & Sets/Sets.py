@@ -15,3 +15,17 @@ print(a)
 # a.add([1,2,3,5])    # No you cannot add list and Dictionary in Set
 a.add((2,3,67,56,6))
 print(a)
+
+print(len(s))
+print(s.pop())
+print(s.union())
+
+
+e = {2,4,6,8,10,11,12,13,14,15}
+o = {1,3,5,7,9,11,12,13,14,15}
+
+print(e)
+print(o)
+
+print(e.intersection(o))
+print(e.union(o))
