@@ -1,9 +1,12 @@
 import mysql.connector as conn
 
-mydb = conn.connect(host = "localhost" , user ="root" , passwd = "sS123456%" )
+mydb = conn.connect(host = "localhost" , user ="root" , passwd = "123456" )
 print(mydb)
+
+
 conn.close()
 # cursor = mydb.cursor()
+
 #cursor.execute("create database Omkar")
 
 #s = "create table Omkar.omkardetails(employe_id int(10)  , emp_name varchar(80) , emp_mailid varchar(20),emp_salary int(6) , emp_attendence int(3))"

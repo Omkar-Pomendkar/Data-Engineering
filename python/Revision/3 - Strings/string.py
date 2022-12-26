@@ -27,4 +27,15 @@ s = "Hello ,\n good morning Everybody \t \n Live Happy Life"
 print(s)
 
 
+# F String
+a = "Omkar Pomendkar"
+print(f"Hello Everybody {a}")
+
+
+# Format String
+
+age = 23
+txt = "Hello , Everybody my Name {} and age is {}"
+print(txt.format("OMKAR POMENDKAR" , age))
+
 
