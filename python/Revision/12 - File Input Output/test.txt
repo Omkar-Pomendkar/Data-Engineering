@@ -1,0 +1,1 @@
+This is using with function which helps us to close the file automatically
